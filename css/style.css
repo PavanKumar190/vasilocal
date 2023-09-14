@@ -40,6 +40,23 @@ html, body {
   height: 100%;
 }
 
+.frame {
+  position: relative;
+  z-index: 199;
+
+}
+
+
+.header--logo {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-self: start;
+  /*    background-color: #f9cc41;*/
+}
 .floatleft {
   float: left;
 }
@@ -318,6 +335,12 @@ div#preloader {
 
 .marginbottom30{
   margin-bottom: 30px;
+  height: 500px;
+}
+.marginbottom30:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 .marginbottom15{
   margin-bottom: 15px;
@@ -590,7 +613,7 @@ div#preloader {
 }
 .why-us-main{
   background-color: #fff;
-  min-height: 260px;
+  min-height: 370px;
   padding: 15px;
 }
 .why-us-main:hover{
