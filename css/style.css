@@ -529,7 +529,9 @@ div#preloader {
 /*------------------------------
   3. About Area
 --------------------------------*/
-
+.description{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .about-area {
   background-color: #fff;
 }
